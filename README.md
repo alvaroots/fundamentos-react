@@ -113,3 +113,16 @@ Para migrar nuestro aplicaion de React a Next.js Se deben seguir los siguientes 
 - Instalar lo necesario para crear aplicaciones con React y Next.js mediante el siguiente comando npm   install react@latest react-dom@latest next@latest.
 Con todos esta configuracion se hace una migracion a Next.js y gracias a eso no es necesatio escribir HTML puro y no es necesario usar scripts externos de JavaScript ya que Next.js maneja todo eso automaticamente.
 
+----------------------------------------------------------------------------------------------------------
+
+### **CHAPTER-10:** SERVER AND CLIENT COMPONENTS
+
+En Next.js hay dos tipos de componentes que son los siguientes:
+
+#### SERVER COMPONENTS
+
+Son todos los datos que se cargan en el lado del servidor y esto ayuda a que la aplicaion sea mas rapida ya que no gasta muchos recursos del navegador del cliente.
+
+#### CLIENT COMPONENTS
+
+Son los que se cargan en el lado del cliente es decir en el navegador del cliente y son los que permiten al usuario interactuar con la aplicacion.Para crear un client component se debe poner 'use client' al inico del archivo.
